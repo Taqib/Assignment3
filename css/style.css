@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+
+header{
+}
+.container{
+
+width: 1227px;
+
+margin: auto;
+
+display: flex;
+
+flex-wrap: wrap;
+
+align-items: center;
+}
+
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+
+.logo img{}
+
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    padding: 20px;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 15px;
+}
+
+section {
+	padding-top: 220px;
+	padding-bottom: 220px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: top;
+}
+.Glass{
+	background-image: url(../images/glass2.jpg);
+	
+}
+.House{
+	background-image: url(../images/houses.jpg);
+}
+.Meseum{
+	background-image: url(../images/louvre2.jpg);
+}
+.Mountain{
+	background-image: url(../images/yellowstone.jpg);
+}
+.Peak{
+	background-image: url(../images/peakhighway2.jpg);
+}
+.Road{
+	background-image: url(../images/road.jpg);
+}
+
+h1{
+    color: white;
+    background-color: #2dc7bdb3;
+    font-size: 55px;
+    max-width: 400px;
+    margin: auto;
+    padding: 32px;
+    text-align: center;
+}
